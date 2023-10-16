@@ -6,7 +6,8 @@ public class TrafficLane extends Thread {
 	
 	Random random = new Random();
 	int numberOfCars = random.nextInt(6);
-	
+
+	@Override
 	public void run() {
 		
 		System.out.println("The traffic light is green!");
